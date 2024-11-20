@@ -48,6 +48,10 @@
                 justify-content: space-between;
                 width: 100%;
                 padding: 8px 12px;
+
+                position: fixed;
+                bottom: 0;
+                /* background-color: white; */
             }
 
             #input-mask {
@@ -99,16 +103,15 @@
             }
 
             .content {
+                /* here */
+                display: block;
                 margin-bottom: 6rem;
             }
 
-            body {
-                overflow-y: hidden;
-            }
         </style>
     </head>
     <body>
-        <div id="container">
+        <!-- <div id="container">
             <div id="chat-dialogue-container">
                 <div id="chat-dialogue">
                     <div style="background: blue; width: 100%" class="content">sdf</div>
@@ -129,10 +132,25 @@
                     <span class="content">13</span>
                 </div>
             </div>
-            <div id="input-container">
-                <div id="input-mask">
-                    <div contenteditable="true" placeholder="Ask your question" role="textbox" id="input"></div>
-                </div>
+        </div> -->
+
+        <span class="content">1</span>
+        <span class="content">2</span>
+        <span class="content">3</span>
+        <span class="content">4</span>
+        <span class="content">5</span>
+        <span class="content">6</span>
+        <span class="content">7</span>
+        <span class="content">8</span>
+        <span class="content">9</span>
+        <span class="content">10</span>
+        <span class="content">11</span>
+        <span class="content">12</span>
+        <span class="content">13</span>
+
+        <div id="input-container">
+            <div id="input-mask">
+                <div contenteditable="true" placeholder="Ask your question" role="textbox" id="input"></div>
             </div>
         </div>
     </body>
