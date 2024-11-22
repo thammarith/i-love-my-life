@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+        <title>Document</title>
+
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                /* this is interesting */
+                touch-action: manipulation;
+            }
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100dvh;
+                width: 100dvw;
+            }
+
+            header {
+                width: 100%;
+                background-color: lightcoral;
+                position: fixed;
+                top: 0;
+            }
+
+            #input-container {
+                width: 100%;
+                padding: 8px 12px;
+
+                position: fixed;
+                bottom: 0;
+                background-color: lightblue;
+            }
+
+            .content {
+                /* here */
+                display: block;
+                margin-bottom: 6rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- <div id="container">
+            <div id="chat-dialogue-container">
+                <div id="chat-dialogue">
+                    <div style="background: blue; width: 100%" class="content">sdf</div>
+                    <span class="version">v6</span>
+
+                    <span class="content">1</span>
+                    <span class="content">2</span>
+                    <span class="content">3</span>
+                    <span class="content">4</span>
+                    <span class="content">5</span>
+                    <span class="content">6</span>
+                    <span class="content">7</span>
+                    <span class="content">8</span>
+                    <span class="content">9</span>
+                    <span class="content">10</span>
+                    <span class="content">11</span>
+                    <span class="content">12</span>
+                    <span class="content">13</span>
+                </div>
+            </div>
+        </div> -->
+
+        <header>
+            this is header
+        </header>
+
+        <span class="content">1</span>
+        <span class="content">2</span>
+        <span class="content">3</span>
+        <span class="content">4</span>
+        <span class="content">5</span>
+        <span class="content">6</span>
+        <span class="content">7</span>
+        <span class="content">8</span>
+        <span class="content">9</span>
+        <span class="content">10</span>
+        <span class="content">11</span>
+        <span class="content">12</span>
+        <span class="content">13</span>
+
+        <div id="input-container">
+            <input />
+        </div>
+    </body>
+</html>
